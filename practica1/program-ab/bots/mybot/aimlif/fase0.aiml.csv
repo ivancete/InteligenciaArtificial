@@ -1,0 +1,101 @@
+0,COMO APRUEBO IA,*,*,Has de sacar un 5 en la asignatura. Esto es#Comma la suma de teoria y practicas debe salir aprobada.,fase0.aiml
+0,COMO APRUEBO LA TEORIA,*,*,Para aprobar teoria se debe aprobar (5) el examen final#Comma o bien que la suma de notas del examen final con los distintos parciales (hasta 2 puntos) salga aprobada.,fase0.aiml
+0,* APRUEBO ^ TEORIA,*,*,<srai>Como apruebo la teoria</srai>,fase0.aiml
+0,COMO CONSIGO SUPERAR LA PARTE PRACTICA,*,*,La parte practica se evalua con tres entregas y un examen final#Comma todas ponderadas igual. Para aprobar debes tener suficiente puntuacion para llegar a un 5 (es decir#Comma la media ha de llegar al 5).,fase0.aiml
+0,* SUPERAR ^ PRACTICAS,*,*,<srai>Como consigo superar la parte practica</srai>,fase0.aiml
+0,* SUPERO ^ PRACTICAS,*,*,<srai>Como consigo superar la parte practica</srai>,fase0.aiml
+0,COMO SE EVALUA EN LA CONVOCATORIA DE JUNIO,*,*,Hasta 5 puntos la parte teorica y hasta 5 puntos la parte practica.,fase0.aiml
+0,* EVALUA * JUNIO,*,*,<srai>Como se evalua en la convocatoria de junio</srai>,fase0.aiml
+0,QUE PASA SI TENGO QUE PRESENTARME EN LA CONVOCATORIA DE SEPTIEMBRE,*,*,Realizaras un unico examen final sobre 10 puntos tanto teorico como practico.,fase0.aiml
+0,* CONVOCATORIA * SEPTIEMBRE,*,*,<srai>Que pasa si tengo que presentarme en la convocatoria de septiembre</srai>,fase0.aiml
+0,HAY EXAMEN DE PRACTICAS EN LA CONVOCATORIA DE SEPTIEMBRE,*,*,No#Comma es en el examen final donde se evaluara tanto teoria como practica.,fase0.aiml
+0,* EXAMEN DE PRACTICAS * SEPTIEMBRE,*,*,<srai>Hay examen de practicas en la convocatoria de septiembre</srai>,fase0.aiml
+0,QUE PASA SI NO PUEDO ASISTIR A CLASE REGULARMENTE,*,*,La asistencia a clase no es obligatoria#Comma excluyendo las defensas de las entregas de practicas#Comma pero si lo prefieres puedes solicitar una Evaluacion Unica Final.,fase0.aiml
+0,* ASISTIR * REGULARMENTE,*,*,<srai>Que pasa si no puedo asistir a clase regularmente</srai>,fase0.aiml
+0,HAY NOTA MINIMA PARA APROBAR,*,*,La media debe salir 5#Comma pero si en alguna de las dos partes tienes un 3#Comma se podra hacer media con la otra siempre que salga#Comma evidentemente#Comma 5.,fase0.aiml
+0,* NOTA * APROBAR,*,*,<srai>Hay nota minima para aprobar</srai>,fase0.aiml
+0,LAS PRACTICAS SON OBLIGATORIAS,*,*,No#Comma pero si quieres aprobar#Comma seria lo suyo.,fase0.aiml
+0,* PRACTICAS * OBLIGATORIAS,*,*,<srai>Las practicas son obligatorias</srai>,fase0.aiml
+0,CUANTO VALE CADA PRACTICA CON RESPECTO A LA NOTA FINAL,*,*,Cada practica cuenta un 25% del 90% del 50% de practicas. En otras palabras#Comma 1#Comma125 puntos aproximadamente.,fase0.aiml
+0,* PRACTICA * NOTA FINAL,*,*,<srai>Cuanto vale cada practica con respecto a la nota final</srai>,fase0.aiml
+0,CUANTO VALE LA PARTICIPACION CON RESPECTO A LA NOTA FINAL,*,*,La participacion es un 10% del 50% de practicas.,fase0.aiml
+0,* PARTICIPACION * NOTA FINAL,*,*,<srai>Cuanto vale la participacion con respecto a la nota final</srai>,fase0.aiml
+0,CUANTO VALE CADA GUION DE PRACTICAS CON RESPECTO A LA NOTA FINAL,*,*,<srai>Cuanto vale cada practica con respecto a la nota final</srai>,fase0.aiml
+0,* GUION * NOTA FINAL,*,*,<srai>Cuanto vale cada guion de practicas con respecto a la nota final</srai>,fase0.aiml
+0,COMO SE CONSIGUEN PUNTOS POR PARTICIPACION,*,*,Viniendo a clase y resolviendo ejercicios.,fase0.aiml
+0,* PUNTOS * PARTICIPACION,*,*,<srai>Como se consiguen puntos por participacion</srai>,fase0.aiml
+0,QUE ES LO MINIMO QUE NECESITO PARA APROBAR LA ASIGNATURA,*,*,Un 5.,fase0.aiml
+0,* MINIMO * APROBAR ^,*,*,<srai>Que es lo minimo que necesito para aprobar la asignatura</srai>,fase0.aiml
+0,LOS TRABAJOS SON INDIVIDUALES,*,*,Si.,fase0.aiml
+0,* TRABAJOS * INDIVIDUALES,*,*,<srai>Los trabajos son individuales</srai>,fase0.aiml
+0,SE PUEDEN HACER LOS TRABAJOS EN GRUPO,*,*,Si#Comma e ir directo a septiembre. Sarcasmo a un lado#Comma no#Comma no se pueden hacer en grupo.,fase0.aiml
+0,* TRABAJOS * GRUPO,*,*,<srai>Se pueden hacer los trabajos en grupo</srai>,fase0.aiml
+0,HAY QUE ENTREGAR LOS EJERCICIOS DE LAS RELACIONES DE PROBLEMAS,*,*,No#Comma no es necesario.,fase0.aiml
+0,* ENTREGAR * EJERCICIOS ^,*,*,<srai>Que pasa si tengo que presentarme en la convocatoria de septiembre</srai>,fase0.aiml
+0,POR QUE TENGO QUE ESTUDIAR,*,*,Los humanos#Comma en un intento de comprender el mundo#Comma empezaron a desarrollar su conocimiento de las cosas cercanas#Comma para comprender mejor su entorno y aumentar el indice de supervivencia. Puedes no estudiar y encomendarte al destino#Comma pero tu supervivencia sera nula. Salvo que fueses Turing en una encarnacion pasada.,fase0.aiml
+0,* ESTUDIAR ^,*,*,<srai>Por que tengo que estudiar</srai>,fase0.aiml
+0,CUANTO VALE EL PRIMER EXAMEN DE TEORIA,*,*,Si te refieres al primer parcial#Comma 0.5 puntos.,fase0.aiml
+0,* VALE * EXAMEN * TEORIA,*,*,<srai>Cuanto vale el primer examen de teoria</srai>,fase0.aiml
+0,PUEDO TENER UNA NOTA MAYOR A 10,*,*,Si tuvieses los 5 puntos de practicas#Comma y los 5 + 2 puntos de teoria#Comma en un principio pudiera parecer que si. Pero no#Comma solo puedes tener hasta 10 puntos. Quejas#Comma remitir al ministerio de educacion y ciencia.,fase0.aiml
+0,* NOTA * 10,*,*,<srai>Puedo tener una nota mayor a 10</srai>,fase0.aiml
+0,PUEDO RECUPERAR UNA PRACTICA O UN EXAMEN,*,*,No. La unica recuperacion posible es septiembre. Intenta evitarla sacando mejor nota en los demas.,fase0.aiml
+0,* RECUPERAR *,*,*,<srai>Puedo recuperar una practica o un examen</srai>,fase0.aiml
+0,QUE PASA SI ME COPIO DE OTRO ESTUDIANTE,*,*,Seras la deshonra de tu familia. Nadie mas confiara en ti para nada. Ah#Comma e iras a septiembre. Escoria.,fase0.aiml
+0,* COPIO *,*,*,<srai>Que pasa si me copio de otro estudiante</srai>,fase0.aiml
+0,QUE PASA SI ME DEJO COPIAR DE OTRO ESTUDIANTE,*,*,Billete directo con destino Septiembre#Comma ocupantes tu y el otro estudiante.,fase0.aiml
+0,* COPIAR *,*,*,<srai>Que pasa si me dejo copiar de otro estudiante</srai>,fase0.aiml
+0,Y SI SUSPENDO EN LA CONVOCATORIA DE JUNIO,*,*,Que no cunda el panico#Comma puedes asistir a la convocatoria de septiembre.,fase0.aiml
+0,* SUSPENDO * JUNIO,*,*,<srai>Y si suspendo en la convocatoria de junio</srai>,fase0.aiml
+0,CUANTO VALE LA PRACTICA Y LA TEORIA,*,*,Hasta 5 puntos cada parte.,fase0.aiml
+0,* VALE * PRACTICA * TEORIA,*,*,<srai>Cuanto vale la practica y la teoria</srai>,fase0.aiml
+0,CUAL ES EL HORARIO DE TUTORIAS DEL PROFESOR DE PRACTICAS,*,*,Martes de 08:30 a 09:30 en D40 (ETSIIT).Martes de 11:30 a 13:30 en D40 (ETSIIT).Miercoles de 08:30 a 09:30 en D40 (ETSIIT).Miercoles de 11:30 a 13:30 en D40 (ETSIIT).,fase0.aiml
+0,* HORARIO * PROFESOR * PRACTICAS,*,*,<srai>Cual es el horario de tutorias del profesor de practicas</srai>,fase0.aiml
+0,CUAL ES EL CORREO DEL PROFESOR DE TEORIA,*,*,A.Gonzalez@decsai.ugr.es,fase0.aiml
+0,* CORREO * PROFESOR * TEORIA,*,*,<srai>Cual es el correo del profesor de teoria</srai>,fase0.aiml
+0,SE PUEDE APROBAR LA PARTE PRACTICA DE LA ASIGNATURA SI NO PRESENTO UNA PRACTICA,*,*,Si solo es una no pasa demasiado. Eso si#Comma estas perdiendo 1.125 puntos#Comma asi que cuidado.,fase0.aiml
+0,* APROBAR * PARTE PRACTICA * UNA PRACTICA,*,*,<srai>Se puede aprobar la parte practica de la asignatura si no presento una practica</srai>,fase0.aiml
+0,CUAL ES LA NOTA MINIMA QUE TENGO QUE OBTENER EN CADA PARTE PARA HACER MEDIA,*,*,Un 3 en una#Comma y el minimo necesario para hacer media y salga 5.,fase0.aiml
+0,* NOTA MINIMA * MEDIA,*,*,<srai>Cual es la nota minima que tengo que obtener en cada parte para hacer media</srai>,fase0.aiml
+0,QUE PUNTUACION OBTENGO EN LA PRACTICA 1 SI OPTO POR DEFENDER EL NIVEL 3 Y NO LO SUPERO,*,*,Suponiendo que has superado el nivel 0 y 1#Comma un 6.,fase0.aiml
+0,* PUNTUACION * NIVEL 3 *,*,*,<srai>Que puntuacion obtengo en la practica 1 si opto por defender el nivel 3 y no lo supero</srai>,fase0.aiml
+0,PUEDO ENTREGAR LA PRACTICA 1 SIN HACER LA TAREA RELATIVA AL NIVEL 0,*,*,Si#Comma por poder#Comma puedes. Y tendras un 0.,fase0.aiml
+0,* PRACTICA 1 * NIVEL 0,*,*,<srai>Puedo entregar la practica 1 sin hacer la tarea relativa al nivel 0</srai>,fase0.aiml
+0,QUE TENGO QUE HACER SI NO PUEDO ASISTIR A LA SESION DE PRACTICAS EN LA QUE ME CORRESPONDE HACER LA DEFENSA DE MI PRACTICA 1,*,*,Tendras que hablarlo con tu profesor para intentar hacerla otro dia.,fase0.aiml
+0,* ASISTIR * DEFENSA *,*,*,<srai>Que tengo que hacer si no puedo asistir a la sesion de practicas en la que me corresponde hacer la defensa de mi practica 1</srai>,fase0.aiml
+0,CUANTAS PRUEBAS TEORICAS TENDRE A LO LARGO DEL CURSO,*,*,Cuatro. Tres parciales y un final.,fase0.aiml
+0,* PRUEBAS TEORICAS *,*,*,<srai>Cuantas pruebas teoricas tendre a lo largo del curso</srai>,fase0.aiml
+0,QUE VALE LA PRIMERA PRUEBA TEORICA,*,*,<srai>Cuanto vale el primer examen de teoria</srai>,fase0.aiml
+0,* PRUEBA TEORICA,*,*,<srai>Que vale la primera prueba teorica</srai>,fase0.aiml
+0,EN LA PARTE TEORICA SE TIENE EN CUENTA LA ASISTENCIA,*,*,Todos te echaremos de menos#Comma pero no. No se tiene en cuenta.,fase0.aiml
+0,* TEORICA * ASISTENCIA,*,*,<srai>En la parte teorica se tiene en cuenta la asistencia</srai>,fase0.aiml
+0,EN QUE CONSISTE EL EXAMEN DE EJERCICIOS,*,*,Un examen donde se deberan resolver problemas del tipo de los que hayamos hecho en practicas. Se puntuara un 25% del 90% del 50% de practicas. 1.125 puntos.,fase0.aiml
+0,* EXAMEN * EJERCICIOS,*,*,<srai>En que consiste el examen de ejercicios</srai>,fase0.aiml
+0,QUE OCURRE SI NO QUIERO DEFENDER UNA PRACTICA,*,*,Que yo no querre ponerte mas de un 0 en la evaluacion de esa practica.,fase0.aiml
+0,* QUIERO DEFENDER *,*,*,<srai>Que ocurre si no quiero defender una practica</srai>,fase0.aiml
+0,QUE DEBERIA HACER SI NO ESTOY SEGURO DE PODER SUPERAR EL NIVEL 3 DE LA PRACTICA 1,*,*,Prepararse el nivel 2 de la practica 1. Total#Comma por 2 puntos...,fase0.aiml
+0,* SUPERAR * NIVEL 3 *,*,*,<srai>Que deberia hacer si no estoy seguro de poder superar el nivel 3 de la practica 1</srai>,fase0.aiml
+0,CUANTAS PRACTICAS ENTREGABLES TIENE LA ASIGNATURA,*,*,Tres. Three. 3. Trois. San. Drei. 6 en base 4. Te haces una idea.,fase0.aiml
+0,* PRACTICAS * TIENE *,*,*,<srai>Cuantas practicas entregables tiene la asignatura</srai>,fase0.aiml
+0,YO PROGRAMO MUY BIEN EN C++ PODRIA HACER LAS PRACTICAS EN ESE LENGUAJE,*,*,Y yo curo jamones en mi despensa deliciosos#Comma y no por eso puedo aprobar la asignatura regalando uno. O si#Comma lo mismo luego lo compruebo.,fase0.aiml
+0,* PRACTICAS * LENGUAJE,*,*,<srai>Yo programo muy bien en C++ podria hacer las practicas en ese lenguaje</srai>,fase0.aiml
+0,ODIO AIML, PODRIA HACER LAS PRACTICAS CON OTRO LENGUAJE,*,*,Y yo te odio a ti y no me habras oido quejarme. Por si acaso: no#Comma no puedes.,fase0.aiml
+0,* AIML * PRACTICAS * LENGUAJE,*,*,<srai>Odio AIML#Comma podria hacer las practicas con otro lenguaje</srai>,fase0.aiml
+0,DONDE ESTA LA OFICINA DEL PROFESOR DE PRACTICAS,*,*,En el despacho 40#Comma en la ETSIIT.,fase0.aiml
+0,* OFICINA * PRACTICAS,*,*,<srai>Donde esta la oficina del profesor de practicas</srai>,fase0.aiml
+0,* DESPACHO * PRACTICAS,*,*,<srai>Donde esta la oficina del profesor de practicas</srai>,fase0.aiml
+0,DONDE ESTA EL DESPACHO DEL PROFESOR DE TEORIA,*,*,<srai>Donde esta la oficina del profesor de practicas</srai>,fase0.aiml
+0,* DESPACHO * TEORIA,*,*,<srai>Donde esta el despacho del profesor de teoria</srai>,fase0.aiml
+0,* OFICINA * TEORIA,*,*,<srai>Donde esta el despacho del profesor de teoria</srai>,fase0.aiml
+0,SUMO 15 PUNTOS EN LAS PRACTICAS QUE YA HE HECHO ESO ME ASEGURA APROBAR LAS PRACTICAS,*,*,No#Comma para aprobar las practicas tendrias que tener al menos 20 puntos.,fase0.aiml
+0,* 15 PUNTOS * PRACTICAS,*,*,<srai>Sumo 15 puntos en las practicas que ya he hecho#Comma eso me asegura aprobar las practicas</srai>,fase0.aiml
+0,SUMO 20 PUNTOS EN LAS PRACTICAS QUE YA HE HECHO ESO ME ASEGURA APROBAR LA ASIGNATURA,*,*,No#Comma eso solo te asegura aprobar las practicas.,fase0.aiml
+0,* 20 PUNTOS * ASIGNATURA,*,*,<srai>Sumo 20 puntos en las practicas que ya he hecho#Comma eso me asegura aprobar la asignatura</srai>,fase0.aiml
+0,ME INCORPORE TARDE A LA ASIGNATURA Y NO PUDE HACER LA PRACTICA 1 PUEDO RECUPERAR ESA PRACTICA,*,*,Lamentablemente no.,fase0.aiml
+0,ME INCORPORE TARDE A LA ASIGNATURA Y NO PUDE HACER LA PRACTICA 1 TENGO POSIBILIDADES DE APROBAR LA PARTE PRACTICA,*,*,Si#Comma solo has perdido un 25% de la parte practica#Comma todavia es posible aprobarla.,fase0.aiml
+0,* TARDE * APROBAR * PRACTICA,*,*,<srai>Me incorpore tarde a la asignatura y no pude hacer la practica 1#Comma tengo posibilidades de aprobar la parte practica</srai>,fase0.aiml
+0,ME ENCANTAN LOS AGENTES CONVERSACIONALES Y SOY UN EXPERTO EN SU CONSTRUCCION, PODRIA USAR AGENTES CONVERSACIONALES PARA QUE VAYAN EN MI LUGAR A HACER LA DEFENSA DE LA PRACTICA,*,*,No#Comma pero me encantaria verte intentandolo.,fase0.aiml
+0,* USAR AGENTES CONVERSACIONALES * DEFENSA ^,*,*,<srai>Me encantan los agentes conversacionales y soy un experto en su construccion#Comma podria usar agentes conversacionales para que vayan en mi lugar a hacer la defensa de la practica</srai>,fase0.aiml
+0,EN LAS SIGUIENTES PRACTICAS HAY TAMBIEN QUE PROGRAMAR,*,*,Si no te gusta#Comma no sabemos que pintas en ingenieria informatica#Comma pero si#Comma hay que programar.,fase0.aiml
+0,* PROGRAMAR ^,*,*,<srai>En las siguientes practicas hay tambien que programar</srai>,fase0.aiml
+0,EL NIVEL 0 ES MUY FACIL, EL RESTO DE LA PRACTICA SE COMPLICA MUCHO,*,*,Es como hacer el trayecto Granada-Madrid en bicicleta estatica#Comma por mucha fuerza de voluntad que tengas no saldras de tu casa.,fase0.aiml
+0,* NIVEL 0 * FACIL ^,*,*,<srai>El nivel 0 es muy facil#Comma el resto de la practica se complica mucho</srai>,fase0.aiml

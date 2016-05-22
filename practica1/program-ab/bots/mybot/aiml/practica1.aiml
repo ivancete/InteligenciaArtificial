@@ -1,0 +1,507 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+
+<!--REGLA 1-->
+<category>
+	<pattern>
+		Como apruebo IA
+	</pattern>
+	<template>
+		Para aprobar la asignatura es necesario tener una calificación numérica superior o igual a 5 (sobre 10). No obstante, además del requisito anterior, se establece como requisito adicional para superar la asignatura que tanto la calificación correspondiente a la parte teórica como la correspondiente a la parte práctica sean mayores o iguales a 3 (sobre 10).
+	</template>
+</category>
+
+<!--REGLA 2-->
+<category>
+	<pattern>
+		* aprobar la teoria
+	</pattern>
+	<template>
+		Para la parte de teoría se realizará un examen final que se valorará sobre 10. Durante el curso se realizarán tres pruebas que conjuntamente podrían dar un máximo de 2 puntos sobre el examen final. La nota final de teoría sería el mínimo entre 10 y la suma de la nota del examen con la nota obtenida en las pruebas parciales.
+	</template>
+</category>
+
+<!--REGLA 3-->
+<category>
+	<pattern>
+		* superar * practica
+	</pattern>
+	<template>
+		Para la parte de prácticas se tendrá en cuenta la asistencia y participación a las clases (esta parte constituye el 10% de la nota de prácticas), y adicionalmente se realizarán tres prácticas y un examen de problemas, la nota será la media de estas cuatro pruebas (esta parte constituye el 90% de la nota de prácticas). La parte de prácticas se realiza por evaluación continua y no se realizará un examen final.
+	</template>
+</category>
+
+<!--REGLA 4-->
+<category>
+	<pattern>
+		* evalua en la convocatoria de junio
+	</pattern>
+	<template>
+		Para la parte de teoría se realizará un examen final que se valorará sobre 10. Durante el curso se realizarán tres pruebas que conjuntamente podrían dar un máximo de 2 puntos sobre el examen final (valoración 0.5, 1 y 0.5 respectivamente).La nota final de teoría sería el mínimo entre 10 y la suma de la nota del examen con la nota obtenida en las pruebas parciales.
+	</template>
+</category>
+
+<!--REGLA 5-->
+<category>
+	<pattern>
+		* convocatoria de septiembre
+	</pattern>
+	<template>
+		En la convocatoria de septiembre habrá un examen escrito único (evaluado de 0 a 10) que incluirá preguntas tanto de tipo teórico como práctico que garanticen que el alumno ha adquirido la totalidad de las competencias descritas en esta misma guía docente. No habrá entrega de prácticas en esta convocatoria.
+	</template>
+</category>
+
+<!--REGLA 6-->
+<category>
+	<pattern>
+		* practicas en la convocatoria de septiembre
+	</pattern>
+	<template>
+		<srai>* convocatoria de septiembre</srai>
+	</template>
+</category>
+
+<!--REGLA 7-->
+<category>
+	<pattern>
+		* asistir a clase regularmente
+	</pattern>
+	<template>
+		Para aquellos alumnos que no puedan seguir la evaluación continua por motivos justificados, se realizará una prueba única final. Para acogerse a esta evaluación única, el estudiante deberá solicitarlo al director del departamento en las dos primeras semanas de impartición de la asignatura, alegando y acreditando las razones por las que no puede seguir la evaluación continua.
+	</template>
+</category>
+
+<!--REGLA 8-->
+<category>
+	<pattern>
+		* nota minima ^
+	</pattern>
+	<template>
+		<srai>como apruebo IA</srai>
+	</template>
+</category>
+
+<!--REGLA 9-->
+<category>
+	<pattern>
+		* practicas son obligatorias
+	</pattern>
+	<template>
+		Para los alumnos que se acojan a evaluacion continua es obligatorio. Sin embargo para los que se decanten por evaluacion unica no tienen porque asistir a practicas.
+	</template>
+</category>
+
+<!--REGLA 10-->
+<category>
+	<pattern>
+		* vale * practica ^
+	</pattern>
+	<template>
+		Cada practica tiene una ponderacion del 25% del 50% del total de practicas del 100% del total de la nota.	
+	</template>
+</category>
+
+<!--REGLA 11-->
+<category>
+	<pattern>
+		* participacion ^
+	</pattern>
+	<template>
+		La participacion vale un 10% del 50% de las practicas del 100% total.
+	</template>
+</category>
+
+<!--REGLA 12-->
+<category>
+	<pattern>
+		* vale * guion de practicas ^
+	</pattern>
+	<template>
+		<srai>* vale * practica ^</srai>
+	</template>
+</category>
+
+<!--REGLA 13-->
+<category>
+	<pattern>
+		* consiguen puntos por participacion
+	</pattern>
+	<template>
+		Resolviendo las dudas, problemas y demas cuestiones que se planteen en clase. Asi como saliendo a la pizarra a resolver problemas.
+	</template>
+</category>
+
+<!--REGLA 14-->
+<category>
+	<pattern>
+		* minimo ^ para aprobar la asignatura
+	</pattern>
+	<template>
+		<srai>Como apruebo IA</srai>
+	</template>
+</category>
+
+<!--REGLA 15-->
+<category>
+	<pattern>
+		Los trabajos son individuales
+	</pattern>
+	<template>
+		Salvo que se indique lo contrario los trabajos son individuales y cualquier copia sera motivo de un 0 en esa parte tanto para el alumno que se copia como para el que se ha dejado copiar.
+	</template>
+</category>
+
+<!--REGLA 16-->
+<category>
+	<pattern>
+		* pueden hacer los trabajos en grupo
+	</pattern>
+	<template>
+		<srai>Los trabajos son individuales</srai>
+	</template>
+</category>
+
+<!--REGLA 17-->
+<category>
+	<pattern>
+		* entregar ^ las relaciones de problemas
+	</pattern>
+	<template>
+		Las relaciones de problemas no se entregan. Como mucho se resolveran en clase, aunque el objetivo principal de la relacion de problemas es que el alumnado las trabaje en casa para asi coger soltura con la asignatura.
+	</template>
+</category>
+
+<!--REGLA 18-->
+<category>
+	<pattern>
+		* tengo que estudiar
+	</pattern>
+	<template>
+		Porque el estudio es lo que te lleva a conseguir los objetivos y a superarte dia tras dia. Sin el proceso del estudio, porblablemente no se podria aprobar la asignatura, y seguramente no se podria alcanzar los objetivos minimos de aprendizaje.
+	</template>
+</category>
+
+<!--REGLA 19-->
+<category>
+	<pattern>
+		* vale el primer examen de teoria
+	</pattern>
+	<template>
+		El primer examen de teoria tiene una valoracion del 0.5 sobre el examen final.
+	</template>
+</category>
+
+<!--REGLA 20-->
+<category>
+	<pattern>
+		* nota mayor a 10
+	</pattern>
+	<template>
+		No se puede obtener una nota mayor que 10, puesto que lo maximo que se puede sacar en ambas partes tanto de teoria como de practica es un 10, que al ser ponderado como el 50% cada parte, lo maximo que se puede sacar es un 10.
+	</template>
+</category>
+
+<!--REGLA 21-->
+<category>
+	<pattern>
+		* recuperar una practica o examen
+	</pattern>
+	<template>
+		No se puede recuperar ni las practicas ya realizadas ni los examenes. La unica posibilidad de recuperar algo es en septiembre.
+	</template>
+</category>
+
+<!--REGLA 22-->
+<category>
+	<pattern>
+		* copio * estudiante
+	</pattern>
+	<template>
+		Tanto al alumno que se pille copiandose, como al que se ha dejado copiar se les castigará por igual. La sanción sera un 0 en ese examen o practica.
+	</template>
+</category>
+
+<!--REGLA 23-->
+<category>
+	<pattern>
+		* copiar * estudiante
+	</pattern>
+	<template>
+		<srai>* copio * estudiante</srai>
+	</template>
+</category>
+
+<!--REGLA 24-->
+<category>
+	<pattern>
+		* suspendo en ^ junio
+	</pattern>
+	<template>
+		El alumno que suspenda en junio, tendrá que presentarse en septiembre. <srai>* convocatoria de septiembre</srai>
+	</template>
+</category>
+
+<!--REGLA 25-->
+<category>
+	<pattern>
+		Cuanto vale la practica y la teoria
+	</pattern>
+	<template>
+		Valen 50% cada uno.
+	</template>
+</category>
+
+<!--REGLA 26-->
+<category>
+	<pattern>
+		* tutorias del profesor de practicas
+	</pattern>
+	<template>
+		Martes de 08:30 a 09:30 en D40 (ETSIIT)
+		Martes de 11:30 a 13:30 en D40 (ETSIIT)
+		Miércoles de 08:30 a 09:30 en D40 (ETSIIT)
+		Miércoles de 11:30 a 13:30 en D40 (ETSIIT)
+	</template>
+</category>
+
+<!--REGLA 27-->
+<category>
+	<pattern>
+		* correo electronico del profesor de teoria
+	</pattern>
+	<template>
+		A.Gonzalez@decsai.ugr.es
+	</template>
+</category>
+
+<!--REGLA 28-->
+<category>
+	<pattern>
+		* aprobar la parte practica * no me presento a una practica
+	</pattern>
+	<template>
+		Se puede aprobar. Los requisitos son : <srai>* superar * practica</srai>
+	</template>
+</category>
+
+<!--REGLA 29-->
+<category>
+	<pattern>
+		* nota minima * para hacer media
+	</pattern>
+	<template>
+		<srai>como apruebo IA</srai>
+	</template>
+</category>
+
+<!--REGLA 30-->
+<category>
+	<pattern>
+		* practica 1 * nivel 3 ^ no lo supero
+	</pattern>
+	<template>
+		Si el sistema realiza preguntas no inteligentes o no es capaz de detectar la trampa del humano, el alumno obtendrá una calificación de 6.
+	</template>
+</category>
+
+<!--REGLA 31-->
+<category>
+	<pattern>
+		* practica 1 sin hacer * nivel 0
+	</pattern>
+	<template>
+		No se puede entregar la practica 1 sin hacer el nivel 0, ya que es el nivel mínimo para poder defender y entregar la practica.
+	</template>
+</category>
+
+<!--REGLA 32-->
+<category>
+	<pattern>
+		^ si no puedo asistir ^ hacer la defensa de mi practica 1
+	</pattern>
+	<template>
+		Si es por motivos justificados, se buscará otro momento en el que tanto el profesor como el alumno puedan. En el caso de que no sea justificada, se perderá la opción a defender la practica.
+	</template>
+</category>
+
+<!--REGLA 33-->
+<category>
+	<pattern>
+		* pruebas teoricas tendre ^
+	</pattern>
+	<template>
+		Cuatro pruebas teóricas.
+	</template>
+</category>
+
+<!--REGLA 34-->
+<category>
+	<pattern>
+		* vale la primera prueba teorica
+	</pattern>
+	<template>
+		<srai>* vale el primer examen de teoria</srai>
+	</template>
+</category>
+
+<!--REGLA 35-->
+<category>
+	<pattern>
+		* parte teorica se tiene en cuenta la asistencia
+	</pattern>
+	<template>
+		La asistencia a las clases teóricas no será obligatoria, aunque la entrega de pruebas planteadas por el profesor se tendrá en cuenta dentro del sistema de evaluación de la asignatura.
+	</template>
+</category>
+
+<!--REGLA 36-->
+<category>
+	<pattern>
+		* el examen de ejercicios
+	</pattern>
+	<template>
+		Consistirá en los ejercicios que se realicen de problemas en las practicas.
+	</template>
+</category>
+
+<!--REGLA 37-->
+<category>
+	<pattern>
+		* no quiero defender una practica
+	</pattern>
+	<template>
+		El alumno que no defienda una practica pasará a tener un 0 en dicha practica.
+	</template>
+</category>
+
+<!--REGLA 38-->
+<category>
+	<pattern>
+		* no estoy seguro de ^ superar el nivel 3 de la practica 1
+	</pattern>
+	<template>
+		Poner todos tus esfuerzos en los niveles mas bajos. Ya que será peor si un alumno entrega algo que no esta seguro de poder defenderlo.
+	</template>
+</category>
+
+<!--REGLA 39-->
+<category>
+	<pattern>
+		* practicas entregables tiene la asignatura
+	</pattern>
+	<template>
+		La asignatura tiene 3 practicas entregables.
+	</template>
+</category>
+
+<!--REGLA 40-->
+<category>
+	<pattern>
+		Yo programo ^ en * podria hacer las practicas en ese lenguaje
+	</pattern>
+	<template>
+		Las practicas estan diseñadas para hacerlas con el lenguaje AIML, cualquier otro lenguaje que se quiera usar esta fuera de lugar.
+	</template>
+</category>
+
+<!--REGLA 41-->
+<category>
+	<pattern>
+		Odio aiml ^ podria hacer las practicas con *
+	</pattern>
+	<template>
+		<srai>Yo programo muy bien en c++ podria hacer las practicas en ese lenguaje</srai>
+	</template>
+</category>
+
+<!--REGLA 42-->
+<category>
+	<pattern>
+		* oficina del profesor de practicas
+	</pattern>
+	<template>
+		Departamento 40 (ETSIIT).
+	</template>
+</category>
+
+<!--REGLA 43-->
+<category>
+	<pattern>
+		* departamento del profesor de teoria
+	</pattern>
+	<template>
+		<srai>* oficina del profesor de practicas</srai>
+	</template>
+</category>
+
+<!--REGLA 44-->
+<category>
+	<pattern>
+		* 15 puntos en las practicas ^ me asegura aprobar las practicas
+	</pattern>
+	<template>
+		No te asegura aprobar las practicas. Como minimo necesitas 20 puntos.
+	</template>
+</category>
+
+<!--REGLA 45-->
+<category>
+	<pattern>
+		* 20 puntos en las practicas ^ me asegura aprobar la asignatura
+	</pattern>
+	<template>
+		No te asegura aprobar la asignatura porque debe de hacer media con la parte de teoría. Lo unico que te asegura es aprobar las practicas.
+	</template>
+</category>
+
+<!--REGLA 46-->
+<category>
+	<pattern>
+		Me incorpore tarde a la asignatura y no pude hacer la practica 1 ^ puedo recuperar esa practica
+	</pattern>
+	<template>
+		No se puede recuperar la practica perdida.		
+	</template>
+</category>
+
+<!--REGLA 47-->
+<category>
+	<pattern>
+		^ no pude hacer la practica 1 ^ aprobar la parte practica
+	</pattern>
+	<template>
+		Si tienes opciones de aprobar la asignatura, ya que aun quedan mas pruebas por delante para poder sumar puntos y hacer media al final.
+	</template>
+</category>
+
+<!--REGLA 48-->
+<category>
+	<pattern>
+		^ podria usar agentes conversacionales para ^ la defensa de practicas
+	</pattern>
+	<template>
+		No se puede usar agentes conversacionales para la defensa de practicas, ya que se requiere de la asistencia del propio alumno para aprobar las practicas.
+	</template>
+</category>
+
+<!--REGLA 49-->
+<category>
+	<pattern>
+		En las siguientes practicas hay tambien que programar
+	</pattern>
+	<template>
+		En la practica 2 no hay que programar, ya que consta de resolucion de problemas.
+	</template>
+</category>
+
+<!--REGLA 50e-->
+<category>
+	<pattern>
+		El nivel 0 es muy facil ^ el resto ^ se complica mucho
+	</pattern>
+	<template>
+		La practica esta formada de acuerdo a los objetivos minimos que se deben de alcanzar. La dificultad aumenta conforme se sube de nivel, aunque si no se puede llegar a un nivel alto tampoco pasa nada, ya que el objetivo minimo es el nivel 0.
+	</template>
+</category>
+
+</aiml>

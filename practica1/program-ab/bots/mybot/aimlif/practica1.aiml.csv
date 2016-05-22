@@ -1,0 +1,50 @@
+0,COMO APRUEBO IA,*,*,Para aprobar la asignatura es necesario tener una calificación numérica superior o igual a 5 (sobre 10). No obstante#Comma además del requisito anterior#Comma se establece como requisito adicional para superar la asignatura que tanto la calificación correspondiente a la parte teórica como la correspondiente a la parte práctica sean mayores o iguales a 3 (sobre 10).,practica1.aiml
+0,* APROBAR LA TEORIA,*,*,Para la parte de teoría se realizará un examen final que se valorará sobre 10. Durante el curso se realizarán tres pruebas que conjuntamente podrían dar un máximo de 2 puntos sobre el examen final. La nota final de teoría sería el mínimo entre 10 y la suma de la nota del examen con la nota obtenida en las pruebas parciales.,practica1.aiml
+0,* SUPERAR * PRACTICA,*,*,Para la parte de prácticas se tendrá en cuenta la asistencia y participación a las clases (esta parte constituye el 10% de la nota de prácticas)#Comma y adicionalmente se realizarán tres prácticas y un examen de problemas#Comma la nota será la media de estas cuatro pruebas (esta parte constituye el 90% de la nota de prácticas). La parte de prácticas se realiza por evaluación continua y no se realizará un examen final.,practica1.aiml
+0,* EVALUA EN LA CONVOCATORIA DE JUNIO,*,*,Para la parte de teoría se realizará un examen final que se valorará sobre 10. Durante el curso se realizarán tres pruebas que conjuntamente podrían dar un máximo de 2 puntos sobre el examen final (valoración 0.5#Comma 1 y 0.5 respectivamente).La nota final de teoría sería el mínimo entre 10 y la suma de la nota del examen con la nota obtenida en las pruebas parciales.,practica1.aiml
+0,* CONVOCATORIA DE SEPTIEMBRE,*,*,En la convocatoria de septiembre habrá un examen escrito único (evaluado de 0 a 10) que incluirá preguntas tanto de tipo teórico como práctico que garanticen que el alumno ha adquirido la totalidad de las competencias descritas en esta misma guía docente. No habrá entrega de prácticas en esta convocatoria.,practica1.aiml
+0,* PRACTICAS EN LA CONVOCATORIA DE SEPTIEMBRE,*,*,<srai>* convocatoria de septiembre</srai>,practica1.aiml
+0,* ASISTIR A CLASE REGULARMENTE,*,*,Para aquellos alumnos que no puedan seguir la evaluación continua por motivos justificados#Comma se realizará una prueba única final. Para acogerse a esta evaluación única#Comma el estudiante deberá solicitarlo al director del departamento en las dos primeras semanas de impartición de la asignatura#Comma alegando y acreditando las razones por las que no puede seguir la evaluación continua.,practica1.aiml
+0,* NOTA MINIMA ^,*,*,<srai>como apruebo IA</srai>,practica1.aiml
+0,* PRACTICAS SON OBLIGATORIAS,*,*,Para los alumnos que se acojan a evaluacion continua es obligatorio. Sin embargo para los que se decanten por evaluacion unica no tienen porque asistir a practicas.,practica1.aiml
+0,* VALE * PRACTICA ^,*,*,Cada practica tiene una ponderacion del 25% del 50% del total de practicas del 100% del total de la nota.,practica1.aiml
+0,* PARTICIPACION ^,*,*,La participacion vale un 10% del 50% de las practicas del 100% total.,practica1.aiml
+0,* VALE * GUION DE PRACTICAS ^,*,*,<srai>* vale * practica ^</srai>,practica1.aiml
+0,* CONSIGUEN PUNTOS POR PARTICIPACION,*,*,Resolviendo las dudas#Comma problemas y demas cuestiones que se planteen en clase. Asi como saliendo a la pizarra a resolver problemas.,practica1.aiml
+0,* MINIMO ^ PARA APROBAR LA ASIGNATURA,*,*,<srai>Como apruebo IA</srai>,practica1.aiml
+0,LOS TRABAJOS SON INDIVIDUALES,*,*,Salvo que se indique lo contrario los trabajos son individuales y cualquier copia sera motivo de un 0 en esa parte tanto para el alumno que se copia como para el que se ha dejado copiar.,practica1.aiml
+0,* PUEDEN HACER LOS TRABAJOS EN GRUPO,*,*,<srai>Los trabajos son individuales</srai>,practica1.aiml
+0,* ENTREGAR ^ LAS RELACIONES DE PROBLEMAS,*,*,Las relaciones de problemas no se entregan. Como mucho se resolveran en clase#Comma aunque el objetivo principal de la relacion de problemas es que el alumnado las trabaje en casa para asi coger soltura con la asignatura.,practica1.aiml
+0,* TENGO QUE ESTUDIAR,*,*,Porque el estudio es lo que te lleva a conseguir los objetivos y a superarte dia tras dia. Sin el proceso del estudio#Comma porblablemente no se podria aprobar la asignatura#Comma y seguramente no se podria alcanzar los objetivos minimos de aprendizaje.,practica1.aiml
+0,* VALE EL PRIMER EXAMEN DE TEORIA,*,*,El primer examen de teoria tiene una valoracion del 0.5 sobre el examen final.,practica1.aiml
+0,* NOTA MAYOR A 10,*,*,No se puede obtener una nota mayor que 10#Comma puesto que lo maximo que se puede sacar en ambas partes tanto de teoria como de practica es un 10#Comma que al ser ponderado como el 50% cada parte#Comma lo maximo que se puede sacar es un 10.,practica1.aiml
+0,* RECUPERAR UNA PRACTICA O EXAMEN,*,*,No se puede recuperar ni las practicas ya realizadas ni los examenes. La unica posibilidad de recuperar algo es en septiembre.,practica1.aiml
+0,* COPIO * ESTUDIANTE,*,*,Tanto al alumno que se pille copiandose#Comma como al que se ha dejado copiar se les castigará por igual. La sanción sera un 0 en ese examen o practica.,practica1.aiml
+0,* COPIAR * ESTUDIANTE,*,*,<srai>* copio * estudiante</srai>,practica1.aiml
+0,* SUSPENDO EN ^ JUNIO,*,*,El alumno que suspenda en junio#Comma tendrá que presentarse en septiembre. <srai>* convocatoria de septiembre</srai>,practica1.aiml
+0,CUANTO VALE LA PRACTICA Y LA TEORIA,*,*,Valen 50% cada uno.,practica1.aiml
+0,* TUTORIAS DEL PROFESOR DE PRACTICAS,*,*,Martes de 08:30 a 09:30 en D40 (ETSIIT)#Newline		Martes de 11:30 a 13:30 en D40 (ETSIIT)#Newline		Miércoles de 08:30 a 09:30 en D40 (ETSIIT)#Newline		Miércoles de 11:30 a 13:30 en D40 (ETSIIT),practica1.aiml
+0,* CORREO ELECTRONICO DEL PROFESOR DE TEORIA,*,*,A.Gonzalez@decsai.ugr.es,practica1.aiml
+0,* APROBAR LA PARTE PRACTICA * NO ME PRESENTO A UNA PRACTICA,*,*,Se puede aprobar. Los requisitos son : <srai>* superar * practica</srai>,practica1.aiml
+0,* NOTA MINIMA * PARA HACER MEDIA,*,*,<srai>como apruebo IA</srai>,practica1.aiml
+0,* PRACTICA 1 * NIVEL 3 ^ NO LO SUPERO,*,*,Si el sistema realiza preguntas no inteligentes o no es capaz de detectar la trampa del humano#Comma el alumno obtendrá una calificación de 6.,practica1.aiml
+0,* PRACTICA 1 SIN HACER * NIVEL 0,*,*,No se puede entregar la practica 1 sin hacer el nivel 0#Comma ya que es el nivel mínimo para poder defender y entregar la practica.,practica1.aiml
+0,^ SI NO PUEDO ASISTIR ^ HACER LA DEFENSA DE MI PRACTICA 1,*,*,Si es por motivos justificados#Comma se buscará otro momento en el que tanto el profesor como el alumno puedan. En el caso de que no sea justificada#Comma se perderá la opción a defender la practica.,practica1.aiml
+0,* PRUEBAS TEORICAS TENDRE ^,*,*,Cuatro pruebas teóricas.,practica1.aiml
+0,* VALE LA PRIMERA PRUEBA TEORICA,*,*,<srai>* vale el primer examen de teoria</srai>,practica1.aiml
+0,* PARTE TEORICA SE TIENE EN CUENTA LA ASISTENCIA,*,*,La asistencia a las clases teóricas no será obligatoria#Comma aunque la entrega de pruebas planteadas por el profesor se tendrá en cuenta dentro del sistema de evaluación de la asignatura.,practica1.aiml
+0,* EL EXAMEN DE EJERCICIOS,*,*,Consistirá en los ejercicios que se realicen de problemas en las practicas.,practica1.aiml
+0,* NO QUIERO DEFENDER UNA PRACTICA,*,*,El alumno que no defienda una practica pasará a tener un 0 en dicha practica.,practica1.aiml
+0,* NO ESTOY SEGURO DE ^ SUPERAR EL NIVEL 3 DE LA PRACTICA 1,*,*,Poner todos tus esfuerzos en los niveles mas bajos. Ya que será peor si un alumno entrega algo que no esta seguro de poder defenderlo.,practica1.aiml
+0,* PRACTICAS ENTREGABLES TIENE LA ASIGNATURA,*,*,La asignatura tiene 3 practicas entregables.,practica1.aiml
+0,YO PROGRAMO ^ EN * PODRIA HACER LAS PRACTICAS EN ESE LENGUAJE,*,*,Las practicas estan diseñadas para hacerlas con el lenguaje AIML#Comma cualquier otro lenguaje que se quiera usar esta fuera de lugar.,practica1.aiml
+0,ODIO AIML ^ PODRIA HACER LAS PRACTICAS CON *,*,*,<srai>Yo programo muy bien en c++ podria hacer las practicas en ese lenguaje</srai>,practica1.aiml
+0,* OFICINA DEL PROFESOR DE PRACTICAS,*,*,Departamento 40 (ETSIIT).,practica1.aiml
+0,* DEPARTAMENTO DEL PROFESOR DE TEORIA,*,*,<srai>* oficina del profesor de practicas</srai>,practica1.aiml
+0,* 15 PUNTOS EN LAS PRACTICAS ^ ME ASEGURA APROBAR LAS PRACTICAS,*,*,No te asegura aprobar las practicas. Como minimo necesitas 20 puntos.,practica1.aiml
+0,* 20 PUNTOS EN LAS PRACTICAS ^ ME ASEGURA APROBAR LA ASIGNATURA,*,*,No te asegura aprobar la asignatura porque debe de hacer media con la parte de teoría. Lo unico que te asegura es aprobar las practicas.,practica1.aiml
+0,ME INCORPORE TARDE A LA ASIGNATURA Y NO PUDE HACER LA PRACTICA 1 ^ PUEDO RECUPERAR ESA PRACTICA,*,*,No se puede recuperar la practica perdida.,practica1.aiml
+0,^ NO PUDE HACER LA PRACTICA 1 ^ APROBAR LA PARTE PRACTICA,*,*,Si tienes opciones de aprobar la asignatura#Comma ya que aun quedan mas pruebas por delante para poder sumar puntos y hacer media al final.,practica1.aiml
+0,^ PODRIA USAR AGENTES CONVERSACIONALES PARA ^ LA DEFENSA DE PRACTICAS,*,*,No se puede usar agentes conversacionales para la defensa de practicas#Comma ya que se requiere de la asistencia del propio alumno para aprobar las practicas.,practica1.aiml
+0,EN LAS SIGUIENTES PRACTICAS HAY TAMBIEN QUE PROGRAMAR,*,*,En la practica 2 no hay que programar#Comma ya que consta de resolucion de problemas.,practica1.aiml
+0,EL NIVEL 0 ES MUY FACIL ^ EL RESTO ^ SE COMPLICA MUCHO,*,*,La practica esta formada de acuerdo a los objetivos minimos que se deben de alcanzar. La dificultad aumenta conforme se sube de nivel#Comma aunque si no se puede llegar a un nivel alto tampoco pasa nada#Comma ya que el objetivo minimo es el nivel 0.,practica1.aiml
