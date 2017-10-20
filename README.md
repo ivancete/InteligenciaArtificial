@@ -1,37 +1,14 @@
-## Welcome to GitHub Pages
+# Inteligencia Artificial
 
-You can use the [editor on GitHub](https://github.com/ivancete/InteligenciaArtificial/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Prácticas de la asignatura Inteligencia Artificial de la Universidad de Granada (UGR).
+Dentro del repositorio se pueden encontrar las dos primeras prácticas de la asignatura.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## **Práctica 1:** _Creación de un agente conversacional, que sea capaz de:_
+  - Responder a preguntas acerca de la asignatura.
+  - Adivinar un personaje jugando a "Quién es quién".
+  - Proponer un personaje para adivinar jugando a "Quién es quién".
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ivancete/InteligenciaArtificial/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+## **Práctica 2:** _Mundos de BelKan, desarrollo de un agente que sea capaz de:_
+  - Orientarse en el mapa buscando puntos de los que conoce coordenadas.
+  - Recorrer el mapa para descubrirlo al completo.
+  - Recoger objetos y entregarlos a los distintos personajes para conseguir puntos.
